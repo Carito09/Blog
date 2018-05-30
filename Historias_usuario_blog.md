@@ -56,7 +56,7 @@ Criterios de aceptación
 * Que haya un botón para cancelar los cambios
 
 
-Historia de Usuario 5
+Historia de Usuario 5*
 Yo como USUARIO DEL BLOG Deseo PODER CANCELAR MI SUSCRIPCION AL BLOG 
 
 Criterios de aceptación
