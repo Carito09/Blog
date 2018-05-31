@@ -1,69 +1,57 @@
-PUBLICAR INFORMACION SEMANAL DE LUGARES RECOMENDABLES A VISITAR ALREDEDOR DEL MUNDO
+CONSULTAR INFORMACIÓN SOBRE LUGARES RECOMENDABLES A VISITAR ALREDEDOR DEL MUNDO
 
 Historia de Usuario 1
 Yo como USUARIO DEL BLOG Deseo CONSULTAR LUGARES A NIVEL NACIONAL E INTERNACIONAL RECOMENDABLES A VISITAR
 
 Criterios de aceptación
 * Que los lugares estén organizados por región
-* Que al información cuente con fotografias 
-* Que haya una descripcion amplia del lugar
-* Que mencionen las rutas de como llegar
+* Que la información cuente con fotografías 
+* Que haya una descripción amplia del lugar
+* Que mencionen las rutas de cómo llegar
 * Que mencionen los medios de transporte existentes
 * Que mencionen los sitios de interés a visitar dentro del lugar 
 * Que haya una calificación del lugar en valores de 1 a 10
 
-
 Historia de Usuario 2
-Yo como USUARIO DEL BLOG Deseo PODER LOGEARME AL BLOG PARA CONSULTAR LUGARES RECOMENDABLES A VISITAR
+Yo como USUARIO DEL BLOG Deseo INGRESAR A CADA OPCIÓN DE LOS LUGARES RECOMENDADOS
 
 Criterios de aceptación
-* Que me permita capturar mi usuario o correo electrónico para logearme
-* Que verifique que el usuario o correo electónico sea válido
-* Que me permita capturar la contraseña de mi usuario con la máscara para que no se vea esta información
-* Que verifique que la contraseña pertenece al usuario y sea correcta
-* Que haya un botón para ingresar al blog
-* Que haya un botón para resetear la contraseña
-* Que después de 3 intentos para logearme y si no se capturan los datos correctos bloquee la cuenta
-
+* Que cada región cuente con un link que me dirija a los lugares recomendados
+* Que una vez que esté en la sección de lugares recomendados me muestre información
+* Que esta información cuente con información sobre transporte, sitios de comida, medios de transporte,
+  lugares de alojamiento
+* Que cuente con fotografías de cada lugar  
 
 Historia de Usuario 3
-Yo como USUARIO DEL BLOG Deseo PODER REGISTRARME AL BLOG PARA CONSULTAR LUGARES RECOMENDABLES A VISITAR
+Yo como USUARIO DEL BLOG Deseo REGISTRARME AL BLOG PARA RECIBIR EL BOLETÍN
 
 Criterios de aceptación
-* Que me permita capturar mi usuario o correo electrónico para registrarme
-* Que verifique que el usuario o correo electónico no esten registrados previamente, si existen que genere un mensaje indicando lo ocurrido
-* Que me permita capturar la contraseña de mi usuario con la máscara para que no se vea esta información, la contraseña debe tener al memos 8 carácteres como mínimo(pueden ser letras mayúsculas o minúsculas, números, carácteres especiales como %&#!)
-* Que me permita capturar nuevamente la contraseña con la máscara para validar que sea la misma que la anterior capturada
-* Que haya un botón para aceptar el registro y al seleccionarlo se despliegue una pantalla de confirmación con el boton "Aceptar" y "Cancelar". Si se selecciona el botòn Aceptar para que se envié un correo a la cuenta del solicitante para dar la bienvenida, Si se   selecciona el botòn Cancelar generar el mensaje "Error al procesar el registro al blog"
+* Que me pida nombre completo para registrarme (campo obligatorio)
+* Que me pida correo electrónico (campo obligatorio)
+* Que vuelva a pedir correo electrónico para verificarlo (campo obligatorio)
+* Que permita dejar comentarios (campo opcional)
+* Que muestre la opción de política de privacidad* con el link sobre información de políticas de privacidad
+* Que muestre botón de enviar
+* Que muestre mensaje de "envío de datos exitoso" 
 
 
 Historia de Usuario 4
-Yo como USUARIO DEL BLOG Deseo PODER COMPLETAR MI PERFIL   
+Yo como USUARIO DEL BLOG Deseo PODER CANCELAR MI SUSCRIPCION AL BOLETÍN 
 
 Criterios de aceptación
-* Que haya una opción "Perfil" dentro del blog 
-* Que se despliegue una pantalla de captura
-* Que me premita capturar mi nombre
-* Que me premita capturar mi(s) apellido(s)
-* Que me permita seleccionar el pais donde vivo de una lista de paises
-* Que me premita seleccionar el estado o localidad donde vivo
-* Que me premita capturar la fecha de nacimiento (verificando que la fecha sea correcta y sea al menos 18 años anterior a la fecha actual)
-* Que haya una opción para confirmar los términos del servicio y las políticas de privacidad
-* Que haya un botón para aceptar los cambios 
-   * Que se despliegue una pantalla para confirmar el proceso
-   * Si el proceso se realiza de forma correcta se genere el mensaje "Se actualizaron los cambios", 
-      de lo contrario que genere el mensaje "Error al actualizar datos"
-* Que haya un botón para cancelar los cambios
-
+* Que me permita capturar mi correo electrónico 
+* Que verifique que el correo electónico está registrado previamente, si no existen que genere un mensaje indicando lo ocurrido
+* Que se despliegue una pantalla para confirmar el proceso
+* Si el proceso se realiza de forma correcta que genere el mensaje "Proceso de cancelación al boletín se realizó exitosamente"
+   de lo contrario que genere el mensaje "Error al procesar baja del boletín"
+* Que haya un botón para cancelar el proceso
 
 Historia de Usuario 5
-Yo como USUARIO DEL BLOG Deseo PODER CANCELAR MI SUSCRIPCION AL BLOG 
+Yo como USUARIO DEL BLOG Deseo PODER DEJAR UN COMENTARIO 
 
 Criterios de aceptación
-* Que me permita capturar mi usuario o correo electrónico para registrarme
-* Que verifique que el usuario o correo electónico esten registrados previamente, si no existen que genere un mensaje indicando lo ocurrido
-* Que haya un botón para aceptar la solicitud
-* Que se despliegue una pantalla para confirmar el proceso
-* Si el proceso se realiza de forma correcta que genere el mensaje "Proceso de cancelación al blog, se realizó exitosamente"
-   de lo contrario que genere el mensaje "Error al procesar baja del blog"
-* Que haya un botón para cancelar el proceso
+* Que me pida nombre
+* Que me pida correo electrónico
+* Que muestre el recuadro donde escribir el comentario
+* Que muestre el botón de enviar
+* Que muestre mensaje de "hemos recibido tu comentario"
